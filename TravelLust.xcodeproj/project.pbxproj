@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		426A45B01AEC1CD100E2B0EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 426A45AF1AEC1CD100E2B0EA /* main.m */; };
+		426A45B31AEC1CD100E2B0EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 426A45B21AEC1CD100E2B0EA /* AppDelegate.m */; };
+		426A45B91AEC1CD100E2B0EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426A45B71AEC1CD100E2B0EA /* Main.storyboard */; };
+		426A45BB1AEC1CD100E2B0EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426A45BA1AEC1CD100E2B0EA /* Images.xcassets */; };
+		426A45BE1AEC1CD100E2B0EA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 426A45BC1AEC1CD100E2B0EA /* LaunchScreen.xib */; };
+		426A45CA1AEC1CD100E2B0EA /* TravelLustTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426A45C91AEC1CD100E2B0EA /* TravelLustTests.m */; };
+		42934BB61AEC3B7800CC9E4D /* ScrollingScreenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42934BB51AEC3B7800CC9E4D /* ScrollingScreenTableViewController.m */; };
+		42934BB91AEC3F0700CC9E4D /* ANKScrollingViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42934BB81AEC3F0700CC9E4D /* ANKScrollingViewCell.m */; };
+		42934BC31AECBE2D00CC9E4D /* MapScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42934BC21AECBE2D00CC9E4D /* MapScreenViewController.m */; };
+		42934BC71AECC10200CC9E4D /* ContextMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42934BC51AECC10200CC9E4D /* ContextMenuCell.m */; };
+		42934BC81AECC10200CC9E4D /* ContextMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42934BC61AECC10200CC9E4D /* ContextMenuCell.xib */; };
+		42934BD81AECD1D200CC9E4D /* AKAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 42934BD71AECD1D200CC9E4D /* AKAnnotation.m */; };
+		42934BDC1AED40A800CC9E4D /* finishedTinderModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42934BDB1AED40A800CC9E4D /* finishedTinderModalViewController.m */; };
+		42934BE31AED414300CC9E4D /* DismissingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 42934BDE1AED414300CC9E4D /* DismissingAnimator.m */; };
+		42934BE41AED414300CC9E4D /* UIColor+CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 42934BE01AED414300CC9E4D /* UIColor+CustomColors.m */; };
+		42934BE51AED414300CC9E4D /* PresentingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 42934BE21AED414300CC9E4D /* PresentingAnimator.m */; };
+		42934BE81AED6C7500CC9E4D /* FinishedBookingModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42934BE71AED6C7500CC9E4D /* FinishedBookingModalViewController.m */; };
+		42D515C41AED860000D20AEA /* StartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D515C31AED860000D20AEA /* StartVC.m */; };
+		5F74356362F0DB97A36C8732 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C01B199EF01C63992E345BD /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		426A45C41AEC1CD100E2B0EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 426A45A21AEC1CD100E2B0EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 426A45A91AEC1CD100E2B0EA;
+			remoteInfo = TravelLust;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EAEC790126CFEF89F4FA4BE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		14BA76027090B4FA57D3556B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		2C01B199EF01C63992E345BD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		426A45AA1AEC1CD100E2B0EA /* TravelLust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelLust.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		426A45AE1AEC1CD100E2B0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426A45AF1AEC1CD100E2B0EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		426A45B11AEC1CD100E2B0EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		426A45B21AEC1CD100E2B0EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		426A45B81AEC1CD100E2B0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		426A45BA1AEC1CD100E2B0EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		426A45BD1AEC1CD100E2B0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		426A45C31AEC1CD100E2B0EA /* TravelLustTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelLustTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		426A45C81AEC1CD100E2B0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426A45C91AEC1CD100E2B0EA /* TravelLustTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelLustTests.m; sourceTree = "<group>"; };
+		42934BB41AEC3B7800CC9E4D /* ScrollingScreenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScrollingScreenTableViewController.h; path = "Scrolling Screen/ScrollingScreenTableViewController.h"; sourceTree = "<group>"; };
+		42934BB51AEC3B7800CC9E4D /* ScrollingScreenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScrollingScreenTableViewController.m; path = "Scrolling Screen/ScrollingScreenTableViewController.m"; sourceTree = "<group>"; };
+		42934BB71AEC3F0700CC9E4D /* ANKScrollingViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ANKScrollingViewCell.h; path = "Scrolling Screen/ANKScrollingViewCell.h"; sourceTree = "<group>"; };
+		42934BB81AEC3F0700CC9E4D /* ANKScrollingViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ANKScrollingViewCell.m; path = "Scrolling Screen/ANKScrollingViewCell.m"; sourceTree = "<group>"; };
+		42934BC11AECBE2D00CC9E4D /* MapScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapScreenViewController.h; path = "Map Screen/MapScreenViewController.h"; sourceTree = "<group>"; };
+		42934BC21AECBE2D00CC9E4D /* MapScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapScreenViewController.m; path = "Map Screen/MapScreenViewController.m"; sourceTree = "<group>"; };
+		42934BC41AECC10200CC9E4D /* ContextMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextMenuCell.h; sourceTree = "<group>"; };
+		42934BC51AECC10200CC9E4D /* ContextMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextMenuCell.m; sourceTree = "<group>"; };
+		42934BC61AECC10200CC9E4D /* ContextMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContextMenuCell.xib; sourceTree = "<group>"; };
+		42934BD61AECD1D200CC9E4D /* AKAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKAnnotation.h; sourceTree = "<group>"; };
+		42934BD71AECD1D200CC9E4D /* AKAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKAnnotation.m; sourceTree = "<group>"; };
+		42934BDA1AED40A800CC9E4D /* finishedTinderModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = finishedTinderModalViewController.h; path = "Scrolling Screen/finishedTinderModalViewController.h"; sourceTree = "<group>"; };
+		42934BDB1AED40A800CC9E4D /* finishedTinderModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = finishedTinderModalViewController.m; path = "Scrolling Screen/finishedTinderModalViewController.m"; sourceTree = "<group>"; };
+		42934BDD1AED414300CC9E4D /* DismissingAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissingAnimator.h; sourceTree = "<group>"; };
+		42934BDE1AED414300CC9E4D /* DismissingAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissingAnimator.m; sourceTree = "<group>"; };
+		42934BDF1AED414300CC9E4D /* UIColor+CustomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColors.h"; sourceTree = "<group>"; };
+		42934BE01AED414300CC9E4D /* UIColor+CustomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColors.m"; sourceTree = "<group>"; };
+		42934BE11AED414300CC9E4D /* PresentingAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentingAnimator.h; sourceTree = "<group>"; };
+		42934BE21AED414300CC9E4D /* PresentingAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentingAnimator.m; sourceTree = "<group>"; };
+		42934BE61AED6C7500CC9E4D /* FinishedBookingModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FinishedBookingModalViewController.h; path = "Map Screen/FinishedBookingModalViewController.h"; sourceTree = "<group>"; };
+		42934BE71AED6C7500CC9E4D /* FinishedBookingModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FinishedBookingModalViewController.m; path = "Map Screen/FinishedBookingModalViewController.m"; sourceTree = "<group>"; };
+		42D515C21AED860000D20AEA /* StartVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartVC.h; sourceTree = "<group>"; };
+		42D515C31AED860000D20AEA /* StartVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		426A45A71AEC1CD100E2B0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F74356362F0DB97A36C8732 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426A45C01AEC1CD100E2B0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		426A45A11AEC1CD100E2B0EA = {
+			isa = PBXGroup;
+			children = (
+				426A45AC1AEC1CD100E2B0EA /* TravelLust */,
+				426A45C61AEC1CD100E2B0EA /* TravelLustTests */,
+				426A45AB1AEC1CD100E2B0EA /* Products */,
+				9FD84F2BCC4C510414AC6AEB /* Pods */,
+				B8527839737B332CEC6ED3D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		426A45AB1AEC1CD100E2B0EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				426A45AA1AEC1CD100E2B0EA /* TravelLust.app */,
+				426A45C31AEC1CD100E2B0EA /* TravelLustTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		426A45AC1AEC1CD100E2B0EA /* TravelLust */ = {
+			isa = PBXGroup;
+			children = (
+				42934BC01AECBE1600CC9E4D /* Map Screen */,
+				42934BB31AEC3B4C00CC9E4D /* Scrolling Screen */,
+				426A45B11AEC1CD100E2B0EA /* AppDelegate.h */,
+				426A45B21AEC1CD100E2B0EA /* AppDelegate.m */,
+				426A45B71AEC1CD100E2B0EA /* Main.storyboard */,
+				426A45BA1AEC1CD100E2B0EA /* Images.xcassets */,
+				426A45BC1AEC1CD100E2B0EA /* LaunchScreen.xib */,
+				426A45AD1AEC1CD100E2B0EA /* Supporting Files */,
+				42D515C21AED860000D20AEA /* StartVC.h */,
+				42D515C31AED860000D20AEA /* StartVC.m */,
+			);
+			path = TravelLust;
+			sourceTree = "<group>";
+		};
+		426A45AD1AEC1CD100E2B0EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				426A45AE1AEC1CD100E2B0EA /* Info.plist */,
+				426A45AF1AEC1CD100E2B0EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		426A45C61AEC1CD100E2B0EA /* TravelLustTests */ = {
+			isa = PBXGroup;
+			children = (
+				426A45C91AEC1CD100E2B0EA /* TravelLustTests.m */,
+				426A45C71AEC1CD100E2B0EA /* Supporting Files */,
+			);
+			path = TravelLustTests;
+			sourceTree = "<group>";
+		};
+		426A45C71AEC1CD100E2B0EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				426A45C81AEC1CD100E2B0EA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42934BB31AEC3B4C00CC9E4D /* Scrolling Screen */ = {
+			isa = PBXGroup;
+			children = (
+				42934BDD1AED414300CC9E4D /* DismissingAnimator.h */,
+				42934BDE1AED414300CC9E4D /* DismissingAnimator.m */,
+				42934BDF1AED414300CC9E4D /* UIColor+CustomColors.h */,
+				42934BE01AED414300CC9E4D /* UIColor+CustomColors.m */,
+				42934BE11AED414300CC9E4D /* PresentingAnimator.h */,
+				42934BE21AED414300CC9E4D /* PresentingAnimator.m */,
+				42934BB71AEC3F0700CC9E4D /* ANKScrollingViewCell.h */,
+				42934BB81AEC3F0700CC9E4D /* ANKScrollingViewCell.m */,
+				42934BB41AEC3B7800CC9E4D /* ScrollingScreenTableViewController.h */,
+				42934BB51AEC3B7800CC9E4D /* ScrollingScreenTableViewController.m */,
+				42934BDA1AED40A800CC9E4D /* finishedTinderModalViewController.h */,
+				42934BDB1AED40A800CC9E4D /* finishedTinderModalViewController.m */,
+			);
+			name = "Scrolling Screen";
+			sourceTree = "<group>";
+		};
+		42934BC01AECBE1600CC9E4D /* Map Screen */ = {
+			isa = PBXGroup;
+			children = (
+				42934BD91AED3A0B00CC9E4D /* Spinner */,
+				42934BD51AECD1C200CC9E4D /* LocationPlotter */,
+				42934BC91AECC10800CC9E4D /* ContextMenuCell */,
+				42934BC11AECBE2D00CC9E4D /* MapScreenViewController.h */,
+				42934BC21AECBE2D00CC9E4D /* MapScreenViewController.m */,
+				42934BE61AED6C7500CC9E4D /* FinishedBookingModalViewController.h */,
+				42934BE71AED6C7500CC9E4D /* FinishedBookingModalViewController.m */,
+			);
+			name = "Map Screen";
+			sourceTree = "<group>";
+		};
+		42934BC91AECC10800CC9E4D /* ContextMenuCell */ = {
+			isa = PBXGroup;
+			children = (
+				42934BC41AECC10200CC9E4D /* ContextMenuCell.h */,
+				42934BC51AECC10200CC9E4D /* ContextMenuCell.m */,
+				42934BC61AECC10200CC9E4D /* ContextMenuCell.xib */,
+			);
+			name = ContextMenuCell;
+			sourceTree = "<group>";
+		};
+		42934BD51AECD1C200CC9E4D /* LocationPlotter */ = {
+			isa = PBXGroup;
+			children = (
+				42934BD61AECD1D200CC9E4D /* AKAnnotation.h */,
+				42934BD71AECD1D200CC9E4D /* AKAnnotation.m */,
+			);
+			name = LocationPlotter;
+			sourceTree = "<group>";
+		};
+		42934BD91AED3A0B00CC9E4D /* Spinner */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Spinner;
+			sourceTree = "<group>";
+		};
+		9FD84F2BCC4C510414AC6AEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EAEC790126CFEF89F4FA4BE /* Pods.debug.xcconfig */,
+				14BA76027090B4FA57D3556B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8527839737B332CEC6ED3D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C01B199EF01C63992E345BD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		426A45A91AEC1CD100E2B0EA /* TravelLust */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426A45CD1AEC1CD100E2B0EA /* Build configuration list for PBXNativeTarget "TravelLust" */;
+			buildPhases = (
+				06E9697487D241D3280D7EB2 /* Check Pods Manifest.lock */,
+				426A45A61AEC1CD100E2B0EA /* Sources */,
+				426A45A71AEC1CD100E2B0EA /* Frameworks */,
+				426A45A81AEC1CD100E2B0EA /* Resources */,
+				2D382B67BEF5C0E02AF07C6D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelLust;
+			productName = TravelLust;
+			productReference = 426A45AA1AEC1CD100E2B0EA /* TravelLust.app */;
+			productType = "com.apple.product-type.application";
+		};
+		426A45C21AEC1CD100E2B0EA /* TravelLustTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426A45D01AEC1CD100E2B0EA /* Build configuration list for PBXNativeTarget "TravelLustTests" */;
+			buildPhases = (
+				426A45BF1AEC1CD100E2B0EA /* Sources */,
+				426A45C01AEC1CD100E2B0EA /* Frameworks */,
+				426A45C11AEC1CD100E2B0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				426A45C51AEC1CD100E2B0EA /* PBXTargetDependency */,
+			);
+			name = TravelLustTests;
+			productName = TravelLustTests;
+			productReference = 426A45C31AEC1CD100E2B0EA /* TravelLustTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		426A45A21AEC1CD100E2B0EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ashwin Kumar";
+				TargetAttributes = {
+					426A45A91AEC1CD100E2B0EA = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					426A45C21AEC1CD100E2B0EA = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 426A45A91AEC1CD100E2B0EA;
+					};
+				};
+			};
+			buildConfigurationList = 426A45A51AEC1CD100E2B0EA /* Build configuration list for PBXProject "TravelLust" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 426A45A11AEC1CD100E2B0EA;
+			productRefGroup = 426A45AB1AEC1CD100E2B0EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				426A45A91AEC1CD100E2B0EA /* TravelLust */,
+				426A45C21AEC1CD100E2B0EA /* TravelLustTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		426A45A81AEC1CD100E2B0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426A45B91AEC1CD100E2B0EA /* Main.storyboard in Resources */,
+				426A45BE1AEC1CD100E2B0EA /* LaunchScreen.xib in Resources */,
+				42934BC81AECC10200CC9E4D /* ContextMenuCell.xib in Resources */,
+				426A45BB1AEC1CD100E2B0EA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426A45C11AEC1CD100E2B0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06E9697487D241D3280D7EB2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2D382B67BEF5C0E02AF07C6D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		426A45A61AEC1CD100E2B0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426A45B31AEC1CD100E2B0EA /* AppDelegate.m in Sources */,
+				426A45B01AEC1CD100E2B0EA /* main.m in Sources */,
+				42934BE41AED414300CC9E4D /* UIColor+CustomColors.m in Sources */,
+				42D515C41AED860000D20AEA /* StartVC.m in Sources */,
+				42934BE31AED414300CC9E4D /* DismissingAnimator.m in Sources */,
+				42934BDC1AED40A800CC9E4D /* finishedTinderModalViewController.m in Sources */,
+				42934BD81AECD1D200CC9E4D /* AKAnnotation.m in Sources */,
+				42934BE51AED414300CC9E4D /* PresentingAnimator.m in Sources */,
+				42934BB91AEC3F0700CC9E4D /* ANKScrollingViewCell.m in Sources */,
+				42934BB61AEC3B7800CC9E4D /* ScrollingScreenTableViewController.m in Sources */,
+				42934BC71AECC10200CC9E4D /* ContextMenuCell.m in Sources */,
+				42934BE81AED6C7500CC9E4D /* FinishedBookingModalViewController.m in Sources */,
+				42934BC31AECBE2D00CC9E4D /* MapScreenViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426A45BF1AEC1CD100E2B0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426A45CA1AEC1CD100E2B0EA /* TravelLustTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		426A45C51AEC1CD100E2B0EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 426A45A91AEC1CD100E2B0EA /* TravelLust */;
+			targetProxy = 426A45C41AEC1CD100E2B0EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		426A45B71AEC1CD100E2B0EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				426A45B81AEC1CD100E2B0EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		426A45BC1AEC1CD100E2B0EA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				426A45BD1AEC1CD100E2B0EA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		426A45CB1AEC1CD100E2B0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		426A45CC1AEC1CD100E2B0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		426A45CE1AEC1CD100E2B0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EAEC790126CFEF89F4FA4BE /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TravelLust/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		426A45CF1AEC1CD100E2B0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14BA76027090B4FA57D3556B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TravelLust/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		426A45D11AEC1CD100E2B0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TravelLustTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelLust.app/TravelLust";
+			};
+			name = Debug;
+		};
+		426A45D21AEC1CD100E2B0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TravelLustTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelLust.app/TravelLust";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		426A45A51AEC1CD100E2B0EA /* Build configuration list for PBXProject "TravelLust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426A45CB1AEC1CD100E2B0EA /* Debug */,
+				426A45CC1AEC1CD100E2B0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426A45CD1AEC1CD100E2B0EA /* Build configuration list for PBXNativeTarget "TravelLust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426A45CE1AEC1CD100E2B0EA /* Debug */,
+				426A45CF1AEC1CD100E2B0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426A45D01AEC1CD100E2B0EA /* Build configuration list for PBXNativeTarget "TravelLustTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426A45D11AEC1CD100E2B0EA /* Debug */,
+				426A45D21AEC1CD100E2B0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 426A45A21AEC1CD100E2B0EA /* Project object */;
+}

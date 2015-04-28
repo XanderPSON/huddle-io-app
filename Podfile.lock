@@ -1,0 +1,25 @@
+PODS:
+  - Branch (0.6.1)
+  - ContextMenu.iOS (1.0.0)
+  - FoldingTabBar (1.0.0)
+  - MCSwipeTableViewCell (2.1.2)
+  - pop (1.0.7)
+  - SpinKit (1.2.0)
+
+DEPENDENCIES:
+  - Branch
+  - ContextMenu.iOS (~> 1.0.0)
+  - FoldingTabBar (~> 1.0.0)
+  - MCSwipeTableViewCell
+  - pop (~> 1.0)
+  - SpinKit (~> 1.1)
+
+SPEC CHECKSUMS:
+  Branch: 823314e2d6acca2e50a86bb83ceac1b19286254a
+  ContextMenu.iOS: 7da78b3f99e604669b75e55146c6c33147f64f99
+  FoldingTabBar: 463d247453a2ba826ae79f5be1e6b8b93b6aa0ce
+  MCSwipeTableViewCell: 0fc22bd3635b9b5f4ce08675218b0a7278b6440f
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  SpinKit: 65906a8b534a4e14cbfd3f8b0b6c329131faef4a
+
+COCOAPODS: 0.35.0

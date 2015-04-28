@@ -1,0 +1,8 @@
+CLANG_CXX_LANGUAGE_STANDARD = c++11
+CLANG_CXX_LIBRARY = libc++
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Branch" "${PODS_ROOT}/Headers/Public/ContextMenu.iOS" "${PODS_ROOT}/Headers/Public/FoldingTabBar" "${PODS_ROOT}/Headers/Public/MCSwipeTableViewCell" "${PODS_ROOT}/Headers/Public/SpinKit" "${PODS_ROOT}/Headers/Public/pop"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Branch" -isystem "${PODS_ROOT}/Headers/Public/ContextMenu.iOS" -isystem "${PODS_ROOT}/Headers/Public/FoldingTabBar" -isystem "${PODS_ROOT}/Headers/Public/MCSwipeTableViewCell" -isystem "${PODS_ROOT}/Headers/Public/SpinKit" -isystem "${PODS_ROOT}/Headers/Public/pop"
+OTHER_LDFLAGS = -ObjC -l"Pods-Branch" -l"Pods-ContextMenu.iOS" -l"Pods-FoldingTabBar" -l"Pods-MCSwipeTableViewCell" -l"Pods-SpinKit" -l"Pods-pop" -l"c++" -framework "AdSupport" -framework "CoreTelephony" -framework "QuartzCore" -framework "UIKit"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods
